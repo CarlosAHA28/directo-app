@@ -1,0 +1,24 @@
+{
+  "monorepo": true,
+  "sourceRoot": "src",
+  "projects": {
+    "api": {
+      "type": "application",
+      "root": "apps/api",
+      "sourceRoot": "apps/api/src",
+      "entryFile": "main",
+      "compilerOptions": {
+        "tsConfigPath": "apps/api/tsconfig.app.json"
+      }
+    },
+    "calculator": {
+      "type": "application",
+      "root": "apps/calculator",
+      "sourceRoot": "apps/calculator/src",
+      "entryFile": "main",
+      "compilerOptions": {
+        "tsConfigPath": "apps/calculator/tsconfig.app.json"
+      }
+    }
+  }
+}
