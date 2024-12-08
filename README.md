@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# directo-app
-=======
+
 # Directo App
 
 Este proyecto es una aplicación desarrollada en **NestJS** que utiliza **RabbitMQ** para la comunicación entre servicios. Se incluyen dos servicios: `API` y `Calculator`.
@@ -71,4 +69,3 @@ docker logs -f api
 docker logs -f calculator
 
 docker logs -f rabbitmq
->>>>>>> 2163cff (Generar proyecto con todas las características solicitadas)
